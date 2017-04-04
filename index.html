@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+
+<!-- HTML5 SEMANTICS way as the starting point.  See "Content Sectioning" here: 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+<body>
+	<head>
+		<section>
+		High Contrast <button>Off</button> <button>On</button>
+
+		WECOME, Have an account? <button>Sign In</button>
+		</section>
+		
+		<nav>
+			<!-- Logo that is on the left hand side -->
+			<img src="">
+
+			<!-- Unordered list of linked navigation.  This never changed in time, it actually got better with time with CSS and JavaScript when it comes down to functionality of vrious sorts -->
+			<ul>
+				<li><a href="#">Menu</li>
+				<li><a href="#">Locations</li>
+				<li><a href="#">Shop</li>
+				<li><a href="#">DD Card</li> <!-- reason for going this route (story told in Chingu-Koalas on Slack) -->
+				<li><a href="#">About</li>
+			</ul>
+
+			<!-- One or more links on the right hand side -->
+			<ul>
+				<li><a href="#"><img src=""></li>
+				<li><a href="#">Locations</li>
+				<li><a href="#">Shop</li>
+			</ul>
+
+
+		</nav>
+
+		<!-- Image slider
+		within the top section of site.  I made it fixed for it is fixed at the top, in that responsive sense -->
+
+
+	</head>
+
+	<section>
+		<!-- There are 3 columns here of 3 images.  It can be either unordered lists or paragraphs, but for paragraphs, they have to be inline blocks after sizing them up to box size (much less than a 3rd of the layout. 
+
+		Question is, do you have a paragraph within a paragraph.  I may have to go the sematic way of 3 articles (actually found out to use 3 sections.  See:
+
+		https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+
+		<section>
+			<img src="">
+			<h4>On The Go Ordering</h4>
+			<p>Order ahead from the Dunkin' app and speed past the line in stores</p>
+
+		</section>
+
+
+		<section>
+			<img src="">
+			<h4>Free Beverages</h4>
+			<p>Earn unlimited Free Beverages all year long.</p>
+
+		</section>
+
+
+		<section>
+			<img src="">
+			<h4>Get Rewarded</h4>
+			<p>Enjoy special offers, members only deals &amp; pointsfor every perchase.</p>
+
+		</section>
+
+		<!-- This is centered out within this section, or maybe to put it below the whole section -->
+		<button>Learn More</button> 
+
+	</section>
+
+	<!-- Lengthy image on top and 4 individual images directly below it.  Responsively, the 4 images below split to two on top of two for tablet and 1 on top of each other on phone -->
+	<section>
+		<img src=""> <!-- this will actually be the background image for this section-->
+
+		<!-- new flavor (all caps)
+		Coconut Cream Pie Iced Coffee on top of image (all caps)
+		on top of an image background
+
+		this is done in 4 ways 
+
+		the other half of it has a heart in the center, could be z-indexed 
+
+		Is this how we are to be coding as we send this out to the world?
+		Yes and no.  Yes to trim the fat, and no to let others know how you create -->
+		
+		<!-- On top of image -->
+		<h1>Over 25,000</h1> <!-- bold and all caps -->
+		<h4>delicious possibilities</h4>
+
+		<button>View Menu</button>
+
+		<!-- In a somewhat unordered list.  
+		the four layed out images, may need to place it into an unordered list or something -->
+		<!-- Background Image, unless it is an image all by itself -->
+		<img src="">  <!-- may have to create in  -->
+		<h4>new flavor</h4>		<!-- All caps -->\
+		<h3>coconut cream pie coffee</h3> 		<!-- Bold all caps -->
+
+
+		<!-- Background Image, unless it is an image all by itself -->
+		<img src="">  <!-- may have to create in  -->
+		<h4>real refreshment</h4>		<!-- All caps -->\
+		<h3>fruited iced teas</h3> 		<!-- Bold all caps -->
+
+
+		<!-- Background Image, unless it is an image all by itself -->
+		<img src="">  <!-- may have to create in  -->
+		<h4>sweet meets salty</h4>		<!-- All caps -->\
+		<h3>chocolate pretzel donut</h3> 		<!-- Bold all caps -->
+
+		<!-- icon placed in the center of the two images -->
+		<img src="">
+
+		<!-- Background Image, unless it is an image all by itself -->
+		<img src="">  <!-- may have to create in  -->
+		<h4>next-level flavor</h4>		<!-- All caps -->\
+		<h3>butter pecan iced coffee</h3> 		<!-- Bold all caps -->
+
+	</section>
+
+
+
+
+	<!-- Another section with image on left and header/paragraph/button on the left.  Responsively, it is the same for tablet, and is one on top of the other for phone -->
+	<section>
+		<img src=""> <!-- left hand side -->
+
+		<h2>Give the gift of Dunkin'</h2> <!-- all caps and orange color and bold -->
+
+		<p>In-store, in the app or through email - there's always a reason to give someone a DD Card.</p>
+		<button>Shop DD Cards</button> <!-- all caps, pink background -->
+	</section>
+
+
+
+
+	<!-- Next section background image with header/paragraph button and footer on the left side... When on phone it is one on top of the other -->
+	<section>
+		<img src=""> <!-- background image -->
+
+		<h1>Brew at home</h1>  <!-- all caps white font -->
+		<p>Everyting you love about Dunkin' delivered right to your door.  Get your favorite coffee, K-Cup &copy; Pods, DD, cups, mugs and more.</p>
+
+		<button>Start shopping</button>	<!-- all caps -->
+
+		<footer>
+			<p>Keurig&copy;, the Cup and Star design, Keurig&copy; Brewed, and K-Cup&copy; are trademarks of Keurig&trademark; Green Mountain, Inc., used with permission.</p>
+		</footer>
+	</section>
+
+
+
+
+	<!-- Next section background image with LARGE header/ small header (h4)/3 unordered lists and two buttons and on the left side is an image with other images to see as one  clicks left and right buttons to it... When on tablet and phone it is one on top of the other -->
+	<section>
+		<img src="">  <!-- background image -->
+		<h1>Come Visit</h1>  <!-- all caps to the right side float -->
+		<h3>Find a Dunkin' Near You</h3>
+
+		<aside>
+			<h5>Closest Dunkin'</h5> <!-- all caps -->
+			<p>525 Lenox Ave <!-- slight bold -->
+			<br>
+			New York, NY 10037
+			<br>
+			<br>
+			Open 24 Hours
+			<br>
+			<br>
+			<img src=""> On-the-Go Ordering <br>
+			<img src=""> On-the-Go Ordering <br>
+			<img src=""> On-the-Go Ordering <br>
+			<a href="">View all locations ></a>	<!-- background color pink -->
+			</p>
+		</aside>
+	</section>
+
+
+
+
+
+	<!-- Next section is like a small advertisement.  Text on left, image centered, and button on the right.  Tablet and phone they are centered.  Actually for tablet the button is floating on the left side and the phone all is floating to the left -->
+	<section>
+		<img src=""> <!-- backgorund image -->
+		<h1>Dunkin' Faster</h1> <!-- all caps -->
+		<h5>with the new Dunckin' App</h5>
+		<ul>
+			<li>Order ahead, speed past the line in the store &amp; redeem points</li>
+			<li>Pay from your phone wth any DD Card</li>
+			<li>Redeem mobile-only offers and rewards</li>
+		</ul>
+		<button><img src=""></button>
+		<button><img src=""></button>
+
+		<!-- on the left hand side 
+		Image with scrolling left/right for more images-->
+
+	</section>
+
+
+	<section>
+		<!--  from left/center/right sides -->
+		<p>Saftey recall</p>
+		<h4>16 oz. Borosilicate Glass Tumbler</h4>
+
+		<img src="">
+
+		<button>Learn more</button> <!-- white font / pink background -->
+	</section>
+
+
+
+
+	<!-- The footer is tricky with the layout.  There are:
+	- first row for desktop is combined 2 sections below 
+		- <h4> or <h5> on top of unordered links to navigate in 3 columns by 7 links (switched to 2 columns for responsive mobile phone).  
+		- <h4> or <h5> on top of unordered links of social media .  
+	- <h4> or <h5> (literally on top of horizontal rule maybe, via z-index) with images of sponsored links (or are they just images).  (2 rows for responsive phone)
+	- next line is the links to terms/privacy/etc (1 on top of the other for responsive phone)
+	- and finally copywrite and company name
+	 -->
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="#">Press Room</a></li>
+				<li><a href="#">Mobile App</a></li>
+				<li><a href="#">Corporate</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Franchising</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</nav>
+
+		
+	</footer>
+
+
+</body>
+</html>
